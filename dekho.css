@@ -3,7 +3,7 @@ svg text {
 font-size: 80 px;
 font weight : 700;
 stroke width:15;
-animation : textAnimate 5s ;
+animation : textAnimate 4s ;
 }
 
 @keyframes textAnimate{
