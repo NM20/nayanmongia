@@ -4,9 +4,8 @@
 // Not after the dom is ready
 // Hiding/Removing CSS loader from DOM using
 // callback after a long delay
-
 $(document).ready(function () {
-  var loadPercent = 0;
+
 
   $("html").animate(
     {
@@ -14,23 +13,9 @@ $(document).ready(function () {
     },
     "fast",
     function () {
-      var interval = setInterval(function () {
-        $("#loader-percent").html(loadPercent + "%");
-        loadPercent = loadPercent + 1;
-        if (loadPercent >= 101) {
-          clearInterval(interval);
-
-          setTimeout(function () {
-            $("#loader-percent").fadeOut(400, function () {
-              $(".loader").fadeOut(200, function () {
                 $("body").css("overflow", "visible");
               });
-            });
-          }, 600);
-        }
-      }, 22);
-    }
-  );
+      
 
   var lastScroll = 0;
 
