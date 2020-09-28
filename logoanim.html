@@ -2,11 +2,21 @@
 <html>
 <body style="background-color: black;">
 <head>
-	  <meta http-equiv="refresh" content="3;url=http://www.nayanmongia.com/" />
+	  <!meta http-equiv="refresh" content="3;url=http://www.nayanmongia.com/" />
   <link rel="stylesheet" href="white.css">
   <link rel="stylesheet" href="dekho.css">
 </head>
-
+<script>
+  setTimeout(function() {
+    var el = document.getElementById("loader-wrapper");
+    // 1s - time of the animation duration
+    el.style.WebkitTransition = 'opacity 1s';
+    el.style.opacity = '0';
+  }, 1250);
+	</script>
+	 <div class="loader-wrapper" id="loader-wrapper">
+  <div id="loading">
+	
 <svg  align="center"
              viewBox="-0 70 1300.69 984.896">
 
@@ -24,7 +34,8 @@
 <text transform="matrix(1 0 0 1 377.5 560)" class="st2 st3 st4" fill=""> NAYAN MONGIA      </text>
 
 </svg>
-
+</div>
+</div>
 
 
 </body>
