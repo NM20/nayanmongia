@@ -185,7 +185,7 @@ a:visited {
   font-family: "Roboto", sans-serif;
   font-size: 0.95rem;
   font-weight: 300;
-  color: #cfdaf7;
+  color: #ffffff;
   position: relative;
 }
 
@@ -228,7 +228,7 @@ a:visited {
   font-weight: 300;
   line-height: 150%;
   font-size: 0.46em;
-  color: #929ec4;
+  color: #dbdee8;
   text-align: justify;
 }
 
@@ -441,7 +441,7 @@ header > nav {
   font-size: 0.46em;
   max-width: 480px;
   text-align: left;
-  color: #929ec4;
+  color: #dbdee8;
   margin-top: 2.4em;
 }
 .bannerContent .button {
@@ -582,7 +582,7 @@ header > nav {
   width: 80%;
   margin-top: 10px;
   font-size: 0.35em;
-  color: #929ec4;
+  color: #dbdee8;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -715,7 +715,7 @@ header > nav {
 }
 .experiences ul {
   font-size: 0.42em;
-  color: #929ec4;
+  color: #dbdee8;
   line-height: 150%;
   margin-top: 15px;
   font-family: "Source Sans Pro", sans-serif;
